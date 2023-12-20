@@ -1,0 +1,333 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* header */
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: rgb(175, 175, 175);
+}
+
+header .header_links i{
+    color: rgb(175, 175, 175);
+    font-size: 18px;
+}
+
+header .header_links a {
+    color: rgb(175, 175, 175);
+    text-decoration: none;
+    margin: 1px 10px;
+    padding: 5px 10px;
+    border: none;
+    transition: .7s;
+}
+
+header .header_links a:hover{
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 10px;
+    transition: .7s;
+    background-color: rgb(119, 112, 112);
+}
+
+/* home */
+.home{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.43);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 30px 1px;
+}
+
+.home .img1{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.home .img1 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+.home .img1 img:hover{
+    transform: scale(1.1);
+}
+
+.home .welcome{
+    margin: 100px 1px;
+    width: 500px;
+    height: 130px;
+    background-color: blue;
+    font-size: 30px;
+    background: linear-gradient(to bottom right, black,grey,black );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* about */
+.about{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    padding: 50px;
+    color: white;
+    display: flex;
+    gap: 30px;
+}
+
+.about .boxone{
+    width: 50%;
+    height: 90vh;
+    padding: 10px;
+}
+
+.about .boxone h1{
+    font-size: 35px;
+}
+
+.about .boxone p{
+    font-size: 20px;
+}
+
+.about .boxone button{
+    padding: 13px 25px;
+    border: none;
+    background-color: rgba(255, 0, 0, 0.634);
+    color: white;
+    border-radius: 10px;
+}
+
+.about .boxone button:hover{
+    border: 1px solid rgba(255, 0, 0, 0.634);
+    background-color: black;
+    color: rgba(255, 0, 0, 0.634);
+}
+
+.about .boxtwo{
+    width: 450px;
+    height: 450px;
+    background: linear-gradient(to bottom right, white, pink,blueviolet );
+    border-radius: 50%;
+    position: relative;
+    margin: 50px 50px;
+    
+}
+
+.about .boxtwo img{
+    width: 450px;
+    height: 450px;
+    position: relative;
+    top: 55px;
+    left: 50px;
+    border-radius: 50%;
+}
+
+/* contactus */
+.contact{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(111, 106, 106);
+    padding:30px;
+    font-family: sans-serif;
+}
+
+.contact .cnt{
+    width: 80%;
+    height: 30vh;
+    background-color: rgb(193, 192, 192);
+    position: relative;
+    top: 50px;
+    left: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.contact .cnt .icons{
+    width: 100%;
+    height: 0vh;
+    background-color: blue;
+    margin: 50px 1px;
+    display: flex;
+    gap: 100px;
+}
+
+.contact .cnt .insta{
+    width: 200px;
+    height: 30px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.contact .cnt .insta .icon{
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.contact .cnt .insta a{
+    color: white;
+    text-decoration: none;
+}
+
+.cont{
+    width: 80%;
+    height: 30vh;
+    position: relative;
+    top: 90px;
+    left: 150px;
+    display: flex;
+    padding: 10px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.cont .cont1{
+    width: 50%;
+    height: auto;
+    font-size: 20px;
+    display: flex;
+}
+
+.cont .cont1 i{
+    font-size: 40px;
+}
+.cont .cont1 .spn{
+    margin: 5px 20px;
+}
+
+.cont .cont2{
+    width: 50%;
+    height: auto;
+    font-size: 20px;
+    display: flex;
+}
+
+.cont .cont2 i{
+    font-size: 40px;
+}
+
+.cont .cont2 .spn2{
+    margin: 5px 20px;
+}
+
+.cont .cont2 .spn2 a{
+    color: white;
+    text-decoration: none;
+}
+
+/* info */
+.info{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(42, 41, 41);
+}
+
+.info img{
+    width: 400px;
+    height: 400px;
+    border-radius: 1000px;
+    position: relative;
+    top: 100px;
+    left: 400px;
+}
+
+.info .card{
+    width: 20%;
+    height: 55vh;
+    background-color: white;
+    position: relative;
+    left: 750px;
+    bottom: 100px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.info .card .bn{
+    width: 70%;
+    height: 80px;
+    font-size: 15px;
+}
+
+.info .card .input input{
+    width: 250px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.info .card button{
+    padding: 5px 87px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(100, 0, 0);
+    color: white;
+}
+
+.info .card button:hover{   
+    border: 2px solid rgb(100, 0, 0);
+    background-color: white;
+    color: rgb(100, 0, 0);
+    transition: .5s;
+}
+
+.info .card i{
+    color: black;
+    font-size: 20px;
+}
+
+.info .card i a{
+    color: black;
+}
+
+/* sample text */
+.box11{
+    width: 100%;
+    height: 38vh;
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    padding: 60px 500px;
+}
+
+.box11 span{
+    color: white;
+}
+
+.box11 p{
+    margin: 90px auto;
+    color: gold;
+}
+
+.box11 p a{
+    color: blueviolet;
+}
+
+.box11 p a:hover{
+    color: rgb(186, 120, 248);
+    transition: .10s;
+}
